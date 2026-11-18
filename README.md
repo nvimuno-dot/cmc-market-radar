@@ -116,6 +116,10 @@ A scan is **2 credits** on the free Basic tier (15,000/month): one `listings/lat
 
 See [`docs/API_NOTES.md`](docs/API_NOTES.md) for what we learned using them, including the API feedback submitted with this project.
 
+## Demo
+
+A 36-second screen recording rendered from real runs lives at [`demo/cmc-market-radar-demo.mp4`](demo/cmc-market-radar-demo.mp4) (offline demo, live scan, and the Markdown brief). `demo/render_demo.py` regenerates it from the captured stdout in `demo/`.
+
 ## Sample run (real API, committed)
 
 [`data/sample_scan.md`](data/sample_scan.md) and [`data/sample_decision.json`](data/sample_decision.json) are the unedited output of a live scan on 2026-11-18 (100 assets, 2 credits). They are in the repo rather than screenshots so a reviewer can diff them against their own run.
