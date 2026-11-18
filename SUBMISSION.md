@@ -6,8 +6,8 @@ Copy-paste source for the DoraHacks submission. Every number, endpoint and comma
 
 | Step | State |
 |---|---|
-| Repository pushed | ✅ `main`, 3 commits, 21 files, demo video 471,947 bytes |
-| Repository name | ⚠️ GitHub repo is `cmc-market-rader` (typo). Rename to `cmc-market-radar` in Settings; all links below assume the fixed name |
+| Repository pushed | [완료] `main`, 5 commits, 21 files, demo video 471,947 bytes - https://github.com/nvimuno-dot/cmc-market-radar |
+| Repository name | [완료] renamed from `cmc-market-rader` to `cmc-market-radar`; all links below use the fixed name |
 | DoraHacks BUIDL created | ⬜ not yet - values in section 2 |
 | X post published | ⬜ not yet - draft in section 4 |
 | Submitted for review | ⬜ not yet - needs the X post URL |
