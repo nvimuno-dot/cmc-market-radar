@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "BTC",
+    "name": "Bitcoin",
+    "cmc_rank": 1,
+    "quote": {"USD": {"price": 63992.67, "market_cap": 1268000000000, "volume_24h": 29200000000, "percent_change_1h": 0.21, "percent_change_24h": -1.54, "percent_change_7d": 2.11, "volume_change_24h": -8.4}}
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ethereum",
+    "cmc_rank": 2,
+    "quote": {"USD": {"price": 1793.19, "market_cap": 216000000000, "volume_24h": 11290000000, "percent_change_1h": 0.08, "percent_change_24h": -1.61, "percent_change_7d": 4.02, "volume_change_24h": 6.1}}
+  },
+  {
+    "symbol": "SOL",
+    "name": "Solana",
+    "cmc_rank": 5,
+    "quote": {"USD": {"price": 74.21, "market_cap": 35800000000, "volume_24h": 2780000000, "percent_change_1h": 0.42, "percent_change_24h": 0.82, "percent_change_7d": 9.4, "volume_change_24h": 31.7}}
+  },
+  {
+    "symbol": "HYPE",
+    "name": "Hyperliquid",
+    "cmc_rank": 14,
+    "quote": {"USD": {"price": 31.4, "market_cap": 10400000000, "volume_24h": 910000000, "percent_change_1h": 1.12, "percent_change_24h": 7.3, "percent_change_7d": 18.2, "volume_change_24h": 142.0}}
+  },
+  {
+    "symbol": "FADE",
+    "name": "Fading Alt",
+    "cmc_rank": 88,
+    "quote": {"USD": {"price": 0.412, "market_cap": 410000000, "volume_24h": 1100000, "percent_change_1h": -1.9, "percent_change_24h": -6.4, "percent_change_7d": -11.7, "volume_change_24h": 58.0}}
+  },
+  {
+    "symbol": "THIN",
+    "name": "Thin Float",
+    "cmc_rank": 61,
+    "quote": {"USD": {"price": 1.05, "market_cap": 2100000000, "volume_24h": 2400000, "percent_change_1h": 0.03, "percent_change_24h": 0.4, "percent_change_7d": -0.6, "volume_change_24h": -12.0}}
+  }
+]
