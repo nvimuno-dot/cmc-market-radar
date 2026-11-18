@@ -99,7 +99,27 @@ Scores are descriptive and read-only: no orders, no fills, no fees modelled. Thi
 
 The post must contain **the DoraHacks BUIDL link, the demo video and `#BuildwithCMC`**, and its URL goes into the organizer question. Post it after the BUIDL exists, so the BUIDL URL can be linked. Attach `demo/cmc-market-radar-demo.mp4` to the post itself (36 s, 1280x720) so the video plays in the timeline.
 
-### English (primary - what the judges read)
+### English, 280-character version (weighted 258 - posts as is on a standard account)
+
+```
+Top 100 assets, one CoinMarketCap Pro API call: momentum, volume anomaly, cohort liquidity, and a regime label. 2 credits, stdlib only, read-only agent. #BuildwithCMC
+
+Code: https://github.com/nvimuno-dot/cmc-market-radar
+Demo: https://cdn.jsdelivr.net/gh/nvimuno-dot/cmc-market-radar@main/demo/cmc-market-radar-demo.mp4
+BUIDL: <BUIDL URL>
+```
+
+### Korean, 280-character version (weighted 261)
+
+```
+CMC Pro API로 상위 100개 자산을 한 번에 훑어 모멘텀·거래량 이상·코호트 유동성과 국면 라벨을 뽑습니다. 스캔 2크레딧, 외부 라이브러리 0, 주문 없는 읽기 전용. #BuildwithCMC
+
+코드: https://github.com/nvimuno-dot/cmc-market-radar
+데모: https://cdn.jsdelivr.net/gh/nvimuno-dot/cmc-market-radar@main/demo/cmc-market-radar-demo.mp4
+BUIDL: <BUIDL URL>
+```
+
+### Longer version (only if the account can post past 280 - weighted 414)
 
 ```
 One command scans the top 100 assets on the CoinMarketCap Pro API and scores what is actually being bought: momentum, volume anomaly, and liquidity relative to the cohort, plus a risk-on / btc-led regime label. Two credits a scan, standard library only, read-only agent.
@@ -109,18 +129,6 @@ Built for the CMC API hackathon. #BuildwithCMC
 Demo: https://cdn.jsdelivr.net/gh/nvimuno-dot/cmc-market-radar@main/demo/cmc-market-radar-demo.mp4
 Code: https://github.com/nvimuno-dot/cmc-market-radar
 DoraHacks: <BUIDL URL>
-```
-
-### Korean (same post, if the account's voice matters more)
-
-```
-코인마켓캡 Pro API로 상위 100개 자산을 한 번에 훑어, 지금 실제로 사지고 있는 것만 골라냅니다. 모멘텀, 거래량 이상, 같은 유니버스 대비 유동성, 그리고 risk-on / btc-led 국면 라벨까지. 스캔 한 번에 2 크레딧, 외부 라이브러리 없음, 주문은 넣지 않는 읽기 전용.
-
-CMC API 해커톤 출품작입니다. #BuildwithCMC
-
-데모 영상: https://cdn.jsdelivr.net/gh/nvimuno-dot/cmc-market-radar@main/demo/cmc-market-radar-demo.mp4
-코드: https://github.com/nvimuno-dot/cmc-market-radar
-도라핵스: <BUIDL URL>
 ```
 
 ## 5. Order of operations
