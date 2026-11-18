@@ -1,0 +1,29 @@
+[agent] fetch listings (top 100)
+[agent] scored universe: 54 assets (46 excluded: stablecoin, no cap, or under $25M 24h volume)
+[agent] fetch global metrics
+[agent] lead/lag screen vs BTC: 0 candidates
+wrote data/sample_scan.md
+wrote data/sample_decision.json
+ #  SYM            PRICE      24H   VOL CHG   SCORE  FLAGS
+------------------------------------------------------------------------------
+ 1  PIEVERSE       $2.90  +49.47%   +99.07%    6.50  
+ 2  WLFI         $0.0460   +0.13% +1131.92%    1.50  
+ 3  JST          $0.1444   +1.47%   -44.03%   -0.11  
+ 4  VVV           $21.08   -2.20%   -39.78%   -0.12  
+ 5  TRX          $0.3094   +1.24%   +29.01%   -0.19  
+ 6  NIGHT        $0.0462   -2.39%    +0.54%   -0.19  
+ 7  NEAR           $3.33   +1.72%    +5.01%   -0.41  
+ 8  XRP          $0.9836   +1.02%   +13.24%   -0.56  
+ 9  POL          $0.0818   +0.09%    +6.05%   -0.60  
+10  XLM          $0.1404   -0.38%    +3.45%   -0.86  
+11  PAXG           $3.7K   -2.64%   +75.91%   -0.90  
+12  ZEC          $933.64   -1.77%    -7.70%   -1.14  
+13  CC           $0.0833   +0.44%   +28.89%   -1.16  
+14  XAUT           $3.7K   -2.59%   +35.91%   -1.17  
+15  SOL           $74.19   +0.42%    -6.76%   -1.22  
+
+{'label': 'neutral', 'total_market_cap_usd': 2178622279936.297, 'market_cap_change_24h_pct': -1.2585906, 'btc_dominance': 59.077993222863, 'concentration': 'btc-led', 'notes': ['Mixed tape: treat single-asset signals as noise until volume confirms.', 'BTC dominance 59.1%: btc-led structure.']}
+
+Regime is neutral with a btc-led structure (BTC dominance 59.1%). Volume-weighted momentum is concentrated in PIEVERSE, WLFI, JST. On the desk watchlist: SOL -1.22; HYPE -1.26; ETH -1.91.
+
+api: {"calls": 2, "credits_used": 2, "credits_left": null, "retries": 0, "endpoints": {"/v1/cryptocurrency/listings/latest": 1, "/v1/global-metrics/quotes/latest": 1}}

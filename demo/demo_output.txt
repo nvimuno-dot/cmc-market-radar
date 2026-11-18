@@ -1,0 +1,30 @@
+# CMC Market Radar - 2026-11-18 13:07 UTC
+
+**Regime:** `neutral` / btc-led (BTC dominance 58.4%, total cap $2,310.0B)
+- Mixed tape: treat single-asset signals as noise until volume confirms.
+- BTC dominance 58.4%: btc-led structure.
+
+Scored 6 assets. Top 6 by composite score:
+
+| # | Symbol | Price | 24h | Vol chg | Momentum | Vol anomaly | Liquidity | Score | Flags |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | **HYPE** | $31.40 | +7.30% | +142.00% | +7.63 | +3.55 | +1.99 | +5.56 | - |
+| 2 | **SOL** | $74.21 | +0.82% | +31.70% | +2.42 | +0.79 | +1.59 | +1.81 | - |
+| 3 | **ETH** | $1.8K | -1.61% | +6.10% | +0.02 | +0.15 | +0.58 | +0.15 | - |
+| 4 | **BTC** | $64.0K | -1.54% | -8.40% | -0.28 | -0.21 | -0.95 | -0.36 | - |
+| 5 | **THIN** | $1.05 | +0.40% | -12.00% | +0.09 | -0.30 | -3.00 | -0.49 | thin float for its cap |
+| 6 | **FADE** | $0.4120 | -6.40% | +58.00% | -6.11 | +1.45 | -3.00 | -3.38 | sell-off on rising volume |
+
+**Weakest 5** (avoid chasing / candidates for short-side watch):
+
+- FADE: -3.38 (sell-off on rising volume)
+- THIN: -0.49 (thin float for its cap)
+- BTC: -0.36 (no flags)
+- ETH: +0.15 (no flags)
+- SOL: +1.81 (no flags)
+
+## API usage this run
+
+- Calls: 0 · credits used: 0 · retries: 0
+
+_Scores are descriptive, not trading advice. Each number is computed from the CMC quote fields shown above._

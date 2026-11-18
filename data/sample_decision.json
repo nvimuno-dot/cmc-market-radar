@@ -1,11 +1,11 @@
 {
-  "started_at": "2026-11-18T13:05:33+00:00",
-  "finished_at": "2026-11-18T13:05:34+00:00",
+  "started_at": "2026-11-18T13:07:28+00:00",
+  "finished_at": "2026-11-18T13:07:29+00:00",
   "regime": {
     "label": "neutral",
-    "total_market_cap_usd": 2178956091186.6787,
-    "market_cap_change_24h_pct": -1.17200684,
-    "btc_dominance": 59.083039697557,
+    "total_market_cap_usd": 2178622279936.297,
+    "market_cap_change_24h_pct": -1.2585906,
+    "btc_dominance": 59.077993222863,
     "concentration": "btc-led",
     "notes": [
       "Mixed tape: treat single-asset signals as noise until volume confirms.",
@@ -22,20 +22,20 @@
     {
       "type": "watch",
       "symbol": "PIEVERSE",
-      "score": 6.487,
+      "score": 6.502,
       "evidence": [
         "momentum +10.00",
-        "volume anomaly +2.44",
-        "liquidity +1.69"
+        "volume anomaly +2.48",
+        "liquidity +1.72"
       ],
       "suggested_action": "add to desk watchlist"
     },
     {
       "type": "watch",
       "symbol": "WLFI",
-      "score": 1.459,
+      "score": 1.498,
       "evidence": [
-        "momentum -0.89",
+        "momentum -0.82",
         "volume anomaly +5.00",
         "liquidity +3.00"
       ],
@@ -44,32 +44,32 @@
     {
       "type": "watch",
       "symbol": "JST",
-      "score": -0.103,
+      "score": -0.106,
       "evidence": [
-        "momentum +0.79",
+        "momentum +0.78",
         "volume anomaly -1.10",
-        "liquidity -1.37"
+        "liquidity -1.38"
       ],
       "suggested_action": "monitor only"
     },
     {
       "type": "watch",
       "symbol": "VVV",
-      "score": -0.128,
+      "score": -0.115,
       "evidence": [
-        "momentum +0.62",
-        "volume anomaly -1.00",
-        "liquidity -1.15"
+        "momentum +0.65",
+        "volume anomaly -0.99",
+        "liquidity -1.14"
       ],
       "suggested_action": "monitor only"
     },
     {
       "type": "watch",
       "symbol": "TRX",
-      "score": -0.192,
+      "score": -0.19,
       "evidence": [
-        "momentum +0.07",
-        "volume anomaly +0.73",
+        "momentum +0.08",
+        "volume anomaly +0.72",
         "liquidity -3.00"
       ],
       "suggested_action": "monitor only"
@@ -88,81 +88,81 @@
   "top": [
     {
       "symbol": "PIEVERSE",
-      "score": 6.487,
+      "score": 6.502,
       "momentum": 10.0,
-      "volume_anomaly": 2.445,
-      "liquidity": 1.689,
+      "volume_anomaly": 2.477,
+      "liquidity": 1.724,
       "flags": []
     },
     {
       "symbol": "WLFI",
-      "score": 1.459,
-      "momentum": -0.893,
+      "score": 1.498,
+      "momentum": -0.822,
       "volume_anomaly": 5.0,
       "liquidity": 3.0,
       "flags": []
     },
     {
       "symbol": "JST",
-      "score": -0.103,
-      "momentum": 0.785,
-      "volume_anomaly": -1.1,
-      "liquidity": -1.368,
+      "score": -0.106,
+      "momentum": 0.783,
+      "volume_anomaly": -1.101,
+      "liquidity": -1.377,
       "flags": []
     },
     {
       "symbol": "VVV",
-      "score": -0.128,
-      "momentum": 0.624,
-      "volume_anomaly": -0.997,
-      "liquidity": -1.145,
+      "score": -0.115,
+      "momentum": 0.645,
+      "volume_anomaly": -0.995,
+      "liquidity": -1.14,
       "flags": []
     },
     {
       "symbol": "TRX",
-      "score": -0.192,
-      "momentum": 0.073,
-      "volume_anomaly": 0.728,
+      "score": -0.19,
+      "momentum": 0.077,
+      "volume_anomaly": 0.725,
       "liquidity": -3.0,
       "flags": []
     },
     {
       "symbol": "NIGHT",
-      "score": -0.282,
-      "momentum": -0.621,
-      "volume_anomaly": 0.015,
-      "liquidity": 0.366,
+      "score": -0.191,
+      "momentum": -0.454,
+      "volume_anomaly": 0.013,
+      "liquidity": 0.365,
       "flags": []
     },
     {
       "symbol": "NEAR",
-      "score": -0.398,
-      "momentum": -1.379,
-      "volume_anomaly": 0.128,
-      "liquidity": 2.15,
+      "score": -0.412,
+      "momentum": -1.402,
+      "volume_anomaly": 0.125,
+      "liquidity": 2.145,
       "flags": []
     },
     {
       "symbol": "XRP",
-      "score": -0.528,
-      "momentum": -0.864,
-      "volume_anomaly": 0.341,
-      "liquidity": -1.035,
+      "score": -0.561,
+      "momentum": -0.917,
+      "volume_anomaly": 0.331,
+      "liquidity": -1.039,
       "flags": []
     },
     {
       "symbol": "POL",
-      "score": -0.561,
-      "momentum": -1.331,
-      "volume_anomaly": 0.155,
-      "liquidity": 0.83,
+      "score": -0.596,
+      "momentum": -1.392,
+      "volume_anomaly": 0.151,
+      "liquidity": 0.831,
       "flags": []
     },
     {
       "symbol": "XLM",
-      "score": -0.809,
-      "momentum": -1.161,
-      "volume_anomaly": 0.087,
+      "score": -0.861,
+      "momentum": -1.255,
+      "volume_anomaly": 0.086,
       "liquidity": -1.31,
       "flags": []
     }
